@@ -25,7 +25,7 @@ export default function LandingPage() {
               Join thousands of students and teachers in our community. Learn from experts or share your knowledge.
             </p>
             <div className="mt-10 flex flex-col justify-center gap-4 sm:flex-row">
-              <Button size="lg" asChild>
+              <Button size="lg" asChild >
                 <Link href="/learner/signup">Start Learning</Link>
               </Button>
               <Button size="lg" variant="outline" asChild>

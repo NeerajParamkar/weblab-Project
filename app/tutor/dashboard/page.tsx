@@ -104,12 +104,12 @@ export default function TutorDashboard() {
               <p className="mt-2 text-muted-foreground">Monitor your sessions, earnings, and student inquiries</p>
             </div>
             <div className="flex gap-2">
-              <Button variant="outline" asChild>
+              {/* <Button variant="outline" asChild>
                 <Link href="/browse">View Students</Link>
-              </Button>
-              <Button asChild>
+              </Button> */}
+              {/* <Button asChild>
                 <Link href="/tutor/profile">Edit Profile</Link>
-              </Button>
+              </Button> */}
             </div>
           </div>
         </div>
@@ -154,7 +154,7 @@ export default function TutorDashboard() {
                 <div className="relative">
                   <div className="h-40 w-40 overflow-hidden rounded-2xl border-4 border-primary/20 bg-gradient-to-br from-primary to-primary/50 shadow-lg">
                     <img
-                      src={profile.avatarUrl || "/placeholder.svg"}
+                      src={"/professional-teacher-man.jpg"}
                       alt={profile.name}
                       className="h-full w-full object-cover"
                     />
