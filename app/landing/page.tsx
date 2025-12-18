@@ -10,8 +10,7 @@ export default function LandingPage() {
   return (
     <div className="min-h-screen bg-background">
       <Navbar />
-      
-      {/* Hero Section */}
+    
       <section className="py-20 md:py-32">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="text-center">
@@ -36,7 +35,6 @@ export default function LandingPage() {
         </div>
       </section>
 
-      {/* Features Section */}
       <section className="py-16 bg-muted/30">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="text-center">
@@ -90,7 +88,6 @@ export default function LandingPage() {
         </div>
       </section>
 
-      {/* Call to Action */}
       <section className="py-20">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="rounded-2xl bg-gradient-to-r from-primary to-purple-600 px-8 py-12 text-center text-white md:px-16">

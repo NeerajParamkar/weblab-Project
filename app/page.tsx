@@ -14,16 +14,13 @@ function HomePageContent() {
       if (user.role === "tutor") {
         router.push("/tutor/dashboard")
       } else {
-        // For students, redirect to the browse page
         router.push("/browse")
       }
     } else {
-      // If not logged in, redirect to landing page
       router.push("/landing")
     }
   }, [user, router])
 
-  // Show loading state while checking auth
   if (user === null) {
     return (
       <div className="min-h-screen bg-background">
@@ -35,7 +32,6 @@ function HomePageContent() {
     )
   }
 
-  // For all other cases, render nothing as we're redirecting
   return null
 }
 

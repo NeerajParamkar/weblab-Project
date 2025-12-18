@@ -55,7 +55,6 @@ export default function TeacherDashboardPage({ params }: { params: { id: string 
       <Navbar />
 
       <main className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
-        {/* Header Section */}
         <div className="mb-8">
           <div className="flex flex-col gap-2 md:flex-row md:items-end md:justify-between">
             <div>
@@ -73,7 +72,6 @@ export default function TeacherDashboardPage({ params }: { params: { id: string 
           </div>
         </div>
 
-        {/* Stats Cards */}
         <div className="mb-8 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
           <Card className="p-6">
             <div className="flex items-center gap-4">
@@ -124,7 +122,6 @@ export default function TeacherDashboardPage({ params }: { params: { id: string 
           </Card>
         </div>
 
-        {/* Student Inquiries */}
         <div className="mb-12">
           <Card className="p-6">
             <div className="mb-6 flex items-center justify-between">
@@ -190,7 +187,6 @@ export default function TeacherDashboardPage({ params }: { params: { id: string 
           </Card>
         </div>
 
-        {/* Recent Activity */}
         <div className="mb-12">
           <Card className="p-6">
             <h2 className="mb-6 text-2xl font-bold text-foreground">Recent Activity</h2>

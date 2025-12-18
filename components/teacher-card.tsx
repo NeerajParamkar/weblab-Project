@@ -44,7 +44,7 @@ export function TeacherCard({ teacher, onContact }: TeacherCardProps) {
 
         <div className="flex flex-col items-end justify-between">
           <div className="text-right">
-            <p className="text-2xl font-bold text-primary">${teacher.hourlyRate}</p>
+            <p className="text-2xl font-bold text-primary">₹{teacher.hourlyRate}</p>
             <p className="text-xs text-muted-foreground">per hour</p>
           </div>
         </div>

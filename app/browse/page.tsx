@@ -53,7 +53,6 @@ function BrowsePageContent() {
       <Navbar />
 
       <main className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
-        {/* Header */}
         <div className="mb-12">
           <h1 className="text-4xl font-bold tracking-tight text-foreground">Find Your Perfect Tutor</h1>
           <p className="mt-4 text-lg text-muted-foreground">
@@ -61,7 +60,6 @@ function BrowsePageContent() {
           </p>
         </div>
 
-        {/* Search and Filters */}
         <div className="mb-12 rounded-lg bg-card p-6 shadow-sm border border-border">
           <SearchFilters
             searchQuery={searchQuery}
@@ -76,14 +74,12 @@ function BrowsePageContent() {
           />
         </div>
 
-        {/* Results Count */}
         <div className="mb-6 text-sm text-muted-foreground">
           {filteredTeachers.length === 0
             ? "No tutors match your filters. Try adjusting your search criteria."
             : `Found ${filteredTeachers.length} tutor${filteredTeachers.length !== 1 ? "s" : ""}`}
         </div>
 
-        {/* Teacher Grid */}
         {filteredTeachers.length > 0 && (
           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
             {filteredTeachers.map((teacher) => (
